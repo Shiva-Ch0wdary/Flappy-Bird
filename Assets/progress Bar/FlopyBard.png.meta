@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlopyBard_0: -5442824049658606666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
