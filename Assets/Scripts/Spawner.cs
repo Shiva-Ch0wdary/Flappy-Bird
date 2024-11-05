@@ -3,7 +3,7 @@
 public class Spawner : MonoBehaviour
 {
     public Pipes prefab;
-    public float spawnRate = 1000f;
+    public float spawnRate = 1f;
     public float minHeight = -1f;
     public float maxHeight = 2f;
     public float verticalGap = 3f;
