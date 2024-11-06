@@ -485,7 +485,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Smooth Scan Loop V2 512x512 Blue_0: 7048143793426794541
+      Shield Round Smooth Scan Loop V2 512x512 Blue_1: 4563380947555342899
+      Shield Round Smooth Scan Loop V2 512x512 Blue_10: 8124475116313904723
+      Shield Round Smooth Scan Loop V2 512x512 Blue_11: -3725712076677381170
+      Shield Round Smooth Scan Loop V2 512x512 Blue_12: -1139345231161309398
+      Shield Round Smooth Scan Loop V2 512x512 Blue_13: -3905582712038020127
+      Shield Round Smooth Scan Loop V2 512x512 Blue_2: -2352876415746279552
+      Shield Round Smooth Scan Loop V2 512x512 Blue_3: 3081163162312874362
+      Shield Round Smooth Scan Loop V2 512x512 Blue_4: 3684666460967931812
+      Shield Round Smooth Scan Loop V2 512x512 Blue_5: -8971576503269978485
+      Shield Round Smooth Scan Loop V2 512x512 Blue_6: 1771639188782366425
+      Shield Round Smooth Scan Loop V2 512x512 Blue_7: 3935373402138409363
+      Shield Round Smooth Scan Loop V2 512x512 Blue_8: 734037671465201945
+      Shield Round Smooth Scan Loop V2 512x512 Blue_9: 3009777489904308498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

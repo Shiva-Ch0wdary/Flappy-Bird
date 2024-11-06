@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Elliptic Magic Loop 192x256 BW_0: 9017394090530872735
+      Shield Elliptic Magic Loop 192x256 BW_1: -33075038018390099
+      Shield Elliptic Magic Loop 192x256 BW_2: -2764566814072341969
+      Shield Elliptic Magic Loop 192x256 BW_3: 8690356810236357564
+      Shield Elliptic Magic Loop 192x256 BW_4: -5990730162787939520
+      Shield Elliptic Magic Loop 192x256 BW_5: -8698329528265346691
+      Shield Elliptic Magic Loop 192x256 BW_6: -9105310561352391864
+      Shield Elliptic Magic Loop 192x256 BW_7: -8262626280901974097
+      Shield Elliptic Magic Loop 192x256 BW_8: -1557400865322243947
+      Shield Elliptic Magic Loop 192x256 BW_9: -3648290856328765603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

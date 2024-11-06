@@ -560,7 +560,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Magic Collapse 128x128 Blue_0: -5312813173050267732
+      Shield Round Magic Collapse 128x128 Blue_1: -876472846212609396
+      Shield Round Magic Collapse 128x128 Blue_10: -4192417710900853499
+      Shield Round Magic Collapse 128x128 Blue_11: -7245411151090543784
+      Shield Round Magic Collapse 128x128 Blue_12: -1582337890737193350
+      Shield Round Magic Collapse 128x128 Blue_13: -6186180754582557378
+      Shield Round Magic Collapse 128x128 Blue_14: -5300160812616439363
+      Shield Round Magic Collapse 128x128 Blue_15: 8737644300625276757
+      Shield Round Magic Collapse 128x128 Blue_16: 3155279614253533034
+      Shield Round Magic Collapse 128x128 Blue_2: 8528736690475894333
+      Shield Round Magic Collapse 128x128 Blue_3: 3650993056180118648
+      Shield Round Magic Collapse 128x128 Blue_4: -4893299242377605733
+      Shield Round Magic Collapse 128x128 Blue_5: -340181848483813817
+      Shield Round Magic Collapse 128x128 Blue_6: -7635610965267757769
+      Shield Round Magic Collapse 128x128 Blue_7: 7351112259014533856
+      Shield Round Magic Collapse 128x128 Blue_8: -6143205694072607188
+      Shield Round Magic Collapse 128x128 Blue_9: -6303354654208859825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

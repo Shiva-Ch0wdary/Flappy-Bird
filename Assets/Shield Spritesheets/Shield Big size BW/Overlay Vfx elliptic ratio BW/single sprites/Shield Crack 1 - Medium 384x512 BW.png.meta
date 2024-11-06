@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Crack 1 - Medium 384x512 BW_0: -2593549177810759434
+      Shield Crack 1 - Medium 384x512 BW_1: -7468695083352563352
+      Shield Crack 1 - Medium 384x512 BW_2: 737047359146867408
+      Shield Crack 1 - Medium 384x512 BW_3: -497371499638991635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

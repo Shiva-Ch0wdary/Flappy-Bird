@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Smooth Hit Right 256x256 BW_0: 4914333892661812223
+      Shield Round Smooth Hit Right 256x256 BW_1: 3598233172240983154
+      Shield Round Smooth Hit Right 256x256 BW_2: -4153072918085931534
+      Shield Round Smooth Hit Right 256x256 BW_3: 7010703032907060893
+      Shield Round Smooth Hit Right 256x256 BW_4: -5459205444707342953
+      Shield Round Smooth Hit Right 256x256 BW_5: -3944649888363062980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

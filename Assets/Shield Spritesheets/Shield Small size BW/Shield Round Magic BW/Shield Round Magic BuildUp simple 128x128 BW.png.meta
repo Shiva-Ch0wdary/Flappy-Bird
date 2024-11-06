@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Magic BuildUp simple 128x128 BW_0: 4220062578526728956
+      Shield Round Magic BuildUp simple 128x128 BW_1: -8456267591993398473
+      Shield Round Magic BuildUp simple 128x128 BW_2: -3204738469492134201
+      Shield Round Magic BuildUp simple 128x128 BW_3: -2564157444194461080
+      Shield Round Magic BuildUp simple 128x128 BW_4: -4891610540763802774
+      Shield Round Magic BuildUp simple 128x128 BW_5: 1688827936361410453
+      Shield Round Magic BuildUp simple 128x128 BW_6: 7615190894743172105
+      Shield Round Magic BuildUp simple 128x128 BW_7: 4735390330604283690
+      Shield Round Magic BuildUp simple 128x128 BW_8: -1585527779267365418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -485,7 +485,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Elliptic Hex Scan Loop 192x256 Green_0: -1823373106862812922
+      Shield Elliptic Hex Scan Loop 192x256 Green_1: -7435302322742349351
+      Shield Elliptic Hex Scan Loop 192x256 Green_10: -1681339625061405749
+      Shield Elliptic Hex Scan Loop 192x256 Green_11: 1666822722405929351
+      Shield Elliptic Hex Scan Loop 192x256 Green_12: 2542658663730400633
+      Shield Elliptic Hex Scan Loop 192x256 Green_13: -3224538566768007396
+      Shield Elliptic Hex Scan Loop 192x256 Green_2: -447050528659524755
+      Shield Elliptic Hex Scan Loop 192x256 Green_3: -8274475212653186656
+      Shield Elliptic Hex Scan Loop 192x256 Green_4: -4822347841111926850
+      Shield Elliptic Hex Scan Loop 192x256 Green_5: 2168463777941224827
+      Shield Elliptic Hex Scan Loop 192x256 Green_6: 7652955275874065086
+      Shield Elliptic Hex Scan Loop 192x256 Green_7: -6992417566727808493
+      Shield Elliptic Hex Scan Loop 192x256 Green_8: -4777271214821490149
+      Shield Elliptic Hex Scan Loop 192x256 Green_9: 2726505539414640610
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

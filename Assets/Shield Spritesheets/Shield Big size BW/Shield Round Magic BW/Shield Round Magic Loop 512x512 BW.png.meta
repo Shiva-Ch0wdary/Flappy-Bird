@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Magic Loop 512x512 BW_0: 3731629518963545463
+      Shield Round Magic Loop 512x512 BW_1: -8353013125068260140
+      Shield Round Magic Loop 512x512 BW_2: -4075704662853124909
+      Shield Round Magic Loop 512x512 BW_3: -5269256964152994043
+      Shield Round Magic Loop 512x512 BW_4: 5641791473111453995
+      Shield Round Magic Loop 512x512 BW_5: 3536167642063278657
+      Shield Round Magic Loop 512x512 BW_6: 6008933338082523649
+      Shield Round Magic Loop 512x512 BW_7: -3811856181920643314
+      Shield Round Magic Loop 512x512 BW_8: 9187631824334475533
+      Shield Round Magic Loop 512x512 BW_9: -7730145751601999068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

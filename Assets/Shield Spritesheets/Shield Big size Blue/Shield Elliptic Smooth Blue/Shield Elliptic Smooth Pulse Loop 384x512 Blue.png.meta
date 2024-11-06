@@ -460,7 +460,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_0: -3252265566341966410
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_1: 3623953128938091332
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_10: -9189303668963435113
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_11: -2843562851882605469
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_12: -4012283774537896661
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_2: 8172463805112617939
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_3: 3003609433948116607
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_4: 7011507538989429955
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_5: -3609639408319970704
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_6: 3276722410208509327
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_7: 6998343887410517189
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_8: -2809577943067085232
+      Shield Elliptic Smooth Pulse Loop 384x512 Blue_9: 7617628709214656310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

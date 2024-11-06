@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Elliptic Hex 1 Single 192x256 Green_0: 2987608499281439721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
