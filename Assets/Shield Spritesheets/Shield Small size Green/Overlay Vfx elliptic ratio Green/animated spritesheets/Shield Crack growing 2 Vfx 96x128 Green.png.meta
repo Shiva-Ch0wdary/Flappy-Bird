@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Crack growing 2 Vfx 96x128 Green_0: 3080638087588616410
+      Shield Crack growing 2 Vfx 96x128 Green_1: -1196319670979461266
+      Shield Crack growing 2 Vfx 96x128 Green_2: -2328442526706781480
+      Shield Crack growing 2 Vfx 96x128 Green_3: -1929867509604025544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

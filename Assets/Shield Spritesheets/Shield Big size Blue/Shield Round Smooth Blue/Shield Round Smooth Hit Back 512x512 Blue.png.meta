@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Smooth Hit Back 512x512 Blue_0: -3321883655008106675
+      Shield Round Smooth Hit Back 512x512 Blue_1: 2219086463531737254
+      Shield Round Smooth Hit Back 512x512 Blue_2: 2677399267604853411
+      Shield Round Smooth Hit Back 512x512 Blue_3: -2782632702947671154
+      Shield Round Smooth Hit Back 512x512 Blue_4: 5599589663388441657
+      Shield Round Smooth Hit Back 512x512 Blue_5: -6242659195394567211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

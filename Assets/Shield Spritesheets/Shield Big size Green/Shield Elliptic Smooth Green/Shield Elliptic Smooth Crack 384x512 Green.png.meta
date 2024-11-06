@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Elliptic Smooth Crack 384x512 Green_0: 7721592353436001268
+      Shield Elliptic Smooth Crack 384x512 Green_1: 6584263132481216606
+      Shield Elliptic Smooth Crack 384x512 Green_2: -5908323348091771423
+      Shield Elliptic Smooth Crack 384x512 Green_3: 8784328843411541902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

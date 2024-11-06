@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Elliptic Magic BuildUp simple 384x512 Green_0: 3573524758011566963
+      Shield Elliptic Magic BuildUp simple 384x512 Green_1: -9079011849038786594
+      Shield Elliptic Magic BuildUp simple 384x512 Green_2: -108492273423668521
+      Shield Elliptic Magic BuildUp simple 384x512 Green_3: -4046089673720519602
+      Shield Elliptic Magic BuildUp simple 384x512 Green_4: -5026579397970688807
+      Shield Elliptic Magic BuildUp simple 384x512 Green_5: -8867797774657306733
+      Shield Elliptic Magic BuildUp simple 384x512 Green_6: 6129204902808773229
+      Shield Elliptic Magic BuildUp simple 384x512 Green_7: -1770596847633673259
+      Shield Elliptic Magic BuildUp simple 384x512 Green_8: 2724420545673163604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

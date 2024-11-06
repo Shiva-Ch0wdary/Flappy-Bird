@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Smooth Crack 512x512 BW_0: -7327038974599875959
+      Shield Round Smooth Crack 512x512 BW_1: 9063889098978497666
+      Shield Round Smooth Crack 512x512 BW_2: -5241384266675296635
+      Shield Round Smooth Crack 512x512 BW_3: -8065317861340207171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

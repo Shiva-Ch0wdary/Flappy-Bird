@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Elliptic Hex Hit Front 96x128 Green_0: -5140285283131982403
+      Shield Elliptic Hex Hit Front 96x128 Green_1: -4350643170427373366
+      Shield Elliptic Hex Hit Front 96x128 Green_2: -6550461090426106247
+      Shield Elliptic Hex Hit Front 96x128 Green_3: -2261265977018187157
+      Shield Elliptic Hex Hit Front 96x128 Green_4: -8841775242410047832
+      Shield Elliptic Hex Hit Front 96x128 Green_5: -131862746687346741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -485,7 +485,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Hex Scan Loop 128x128 Green_0: 2637837350676586530
+      Shield Round Hex Scan Loop 128x128 Green_1: -7358697356626366431
+      Shield Round Hex Scan Loop 128x128 Green_10: 9026614744802831162
+      Shield Round Hex Scan Loop 128x128 Green_11: 5022594118238850231
+      Shield Round Hex Scan Loop 128x128 Green_12: 7417320561838908503
+      Shield Round Hex Scan Loop 128x128 Green_13: 2621185393013148492
+      Shield Round Hex Scan Loop 128x128 Green_2: 404857982634768579
+      Shield Round Hex Scan Loop 128x128 Green_3: -2662609885773002653
+      Shield Round Hex Scan Loop 128x128 Green_4: -9044631402218713077
+      Shield Round Hex Scan Loop 128x128 Green_5: 9007419683503114148
+      Shield Round Hex Scan Loop 128x128 Green_6: 4322687851474773261
+      Shield Round Hex Scan Loop 128x128 Green_7: -963188214592747425
+      Shield Round Hex Scan Loop 128x128 Green_8: -7931571351008790536
+      Shield Round Hex Scan Loop 128x128 Green_9: 5823725044448755068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

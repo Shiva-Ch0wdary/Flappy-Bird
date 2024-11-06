@@ -460,7 +460,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Hex Pulse Loop 128x128 Green_0: 3696787166230270433
+      Shield Round Hex Pulse Loop 128x128 Green_1: -3875262933641088154
+      Shield Round Hex Pulse Loop 128x128 Green_10: -8566095406865505105
+      Shield Round Hex Pulse Loop 128x128 Green_11: 6985756906741402891
+      Shield Round Hex Pulse Loop 128x128 Green_12: 752111374228577547
+      Shield Round Hex Pulse Loop 128x128 Green_2: -1997337511902807022
+      Shield Round Hex Pulse Loop 128x128 Green_3: 3327609689361127191
+      Shield Round Hex Pulse Loop 128x128 Green_4: -2117462315605516073
+      Shield Round Hex Pulse Loop 128x128 Green_5: 6395794656064924295
+      Shield Round Hex Pulse Loop 128x128 Green_6: 4785184828760110017
+      Shield Round Hex Pulse Loop 128x128 Green_7: 5635534961025543777
+      Shield Round Hex Pulse Loop 128x128 Green_8: 7872478173939492008
+      Shield Round Hex Pulse Loop 128x128 Green_9: -2491969984326877154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shield Round Hex 2 Single 512x512 BW_0: -8692494546637295177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
