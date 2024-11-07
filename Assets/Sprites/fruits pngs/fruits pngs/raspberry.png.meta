@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      raspberry_0: 3201467988899714852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
