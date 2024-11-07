@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Player player;
     [SerializeField] private Spawner spawner;
     [SerializeField] private Text scoreText;
-    [SerializeField] private GameObject playButton;
     [SerializeField] private GameObject gameOver;
     [SerializeField] private Text powerUpTimerText; // Text element to display the power-up timer
 
@@ -40,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Pause();
+        Play();
         powerUpTimerText.text = ""; // Clear the timer text at the start
     }
 
@@ -55,7 +54,6 @@ public class GameManager : MonoBehaviour
         score = 0;
         scoreText.text = score.ToString();
 
-        playButton.SetActive(false);
         gameOver.SetActive(false);
 
         Time.timeScale = 1f;
@@ -93,7 +91,6 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        playButton.SetActive(true);
         gameOver.SetActive(true);
 
         Pause();

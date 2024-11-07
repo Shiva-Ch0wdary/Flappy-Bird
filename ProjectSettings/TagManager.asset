@@ -9,6 +9,7 @@ TagManager:
   - Pipe
   - InvisiblePowerUp
   - SpeedPowerUp
+  - playerWinter
   layers:
   - Default
   - TransparentFX
