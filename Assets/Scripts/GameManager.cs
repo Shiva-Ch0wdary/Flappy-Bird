@@ -16,16 +16,20 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance != null) {
+        if (Instance != null)
+        {
             DestroyImmediate(gameObject);
-        } else {
+        }
+        else
+        {
             Instance = this;
         }
     }
 
     private void OnDestroy()
     {
-        if (Instance == this) {
+        if (Instance == this)
+        {
             Instance = null;
         }
     }
@@ -52,10 +56,28 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         player.enabled = true;
 
-        Pipes[] pipes = FindObjectsOfType<Pipes>();
+        // Reset the player to normal state
+        player.ResetPowerUps();
 
-        for (int i = 0; i < pipes.Length; i++) {
+        // Destroy existing pipes and power-ups when the game restarts
+        Pipes[] pipes = FindObjectsOfType<Pipes>();
+        for (int i = 0; i < pipes.Length; i++)
+        {
             Destroy(pipes[i].gameObject);
+        }
+
+        // Destroy all speed power-ups
+        GameObject[] speedPowerUps = GameObject.FindGameObjectsWithTag("SpeedPowerUp");
+        for (int i = 0; i < speedPowerUps.Length; i++)
+        {
+            Destroy(speedPowerUps[i]);
+        }
+
+        // Destroy all invisible power-ups
+        GameObject[] invisiblePowerUps = GameObject.FindGameObjectsWithTag("InvisiblePowerUp");
+        for (int i = 0; i < invisiblePowerUps.Length; i++)
+        {
+            Destroy(invisiblePowerUps[i]);
         }
     }
 
@@ -73,4 +95,15 @@ public class GameManager : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
+    // Method to activate speed boost on the player
+    public void ActivateSpeedBoost(float duration)
+    {
+        player.ActivateSpeedBoost(duration);
+    }
+
+    // Method to activate invisibility on the player, with the shield prefab
+    public void ActivateInvisibility(float duration, GameObject shieldPrefab)
+    {
+        player.ActivateInvisibility(duration, shieldPrefab);
+    }
 }
