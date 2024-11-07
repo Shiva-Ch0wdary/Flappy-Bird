@@ -9,10 +9,12 @@ public class Spawner : MonoBehaviour
     public Pipes pipePrefabC;                     // Pipe C prefab reference (pipe down)
     public Pipes pipePrefabD;                     // Pipe D prefab reference (2 pipes)
     public Pipes pipePrefabE;                     // Pipe E prefab reference (single pipe moving up and down)
+    public Pipes slidePipePrefab;                 // Slide pipe prefab reference (new pipe with sliding behavior)
 
-    public float spawnRate = 2f;                  // Delay between pipe spawns (in seconds)
-    public float minHeight = -1f;                 // Minimum height for pipes
-    public float maxHeight = 2f;                  // Maximum height for pipes
+    public float spawnRate = 2f;                  // Fixed rate at which pipes spawn
+    public float minHeight = -1f;                 // Minimum height for regular pipes
+    public float maxHeight = 2f;                  // Maximum height for regular pipes
+    public float slidePipeHeightOffset = -2f;     // Height offset to place slide pipes closer to the ground
     public float verticalGap = 3f;                // Vertical gap between pipes
 
     private Coroutine spawnCoroutine;             // Reference to the spawn coroutine
@@ -52,10 +54,10 @@ public class Spawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(spawnRate); // Fixed delay between spawns
+            yield return new WaitForSeconds(spawnRate); // Wait for a fixed delay before spawning
 
             // Randomly choose a prefab to spawn
-            int prefabChoice = Random.Range(0, 5); // Options 0-4 for prefabs A-E
+            int prefabChoice = Random.Range(0, 6); // Options 0-5 for prefabs A-E and slidePipe
             switch (prefabChoice)
             {
                 case 0:
@@ -73,11 +75,14 @@ public class Spawner : MonoBehaviour
                 case 4:
                     SpawnPipePrefab(pipePrefabE); // Prefab E (single pipe moving up and down)
                     break;
+                case 5:
+                    SpawnSlidePipePrefab(slidePipePrefab); // Slide pipe prefab with ground placement
+                    break;
             }
         }
     }
 
-    // Spawn pipe prefabs
+    // Spawn regular pipe prefabs
     private void SpawnPipePrefab(Pipes pipePrefab)
     {
         Pipes pipeInstance = Instantiate(pipePrefab, transform.position, Quaternion.identity);
@@ -86,9 +91,18 @@ public class Spawner : MonoBehaviour
 
         pipeInstance.gap = verticalGap;
         spawnedObjects.Add(pipeInstance.gameObject); // Track the spawned pipe
+    }
 
-        // Set the tag to "Pipe" for collision detection with the bird
-        pipeInstance.gameObject.tag = "Pipe";
+    // Spawn slide pipe prefab close to the ground
+    private void SpawnSlidePipePrefab(Pipes pipePrefab)
+    {
+        Pipes pipeInstance = Instantiate(pipePrefab, transform.position, Quaternion.identity);
+        
+        // Position the slide pipe with a height offset to place it closer to the ground
+        pipeInstance.transform.position += Vector3.up * slidePipeHeightOffset;
+
+        pipeInstance.gap = verticalGap;
+        spawnedObjects.Add(pipeInstance.gameObject); // Track the spawned slide pipe
     }
 
     // Call this method to handle the game over logic
@@ -96,7 +110,6 @@ public class Spawner : MonoBehaviour
     {
         StopSpawning(); // Stop spawning pipes
         DestroySpawnedObjects(); // Destroy all currently spawned objects
-        // You can also add any UI/game over handling code here, such as showing a game over screen
     }
 
     // Call this method to restart the game

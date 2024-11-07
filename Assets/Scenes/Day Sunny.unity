@@ -1395,9 +1395,12 @@ MonoBehaviour:
     type: 3}
   pipePrefabE: {fileID: 1796680215622139257, guid: 036858dd9c785fd43a5366c477bac876,
     type: 3}
+  slidePipePrefab: {fileID: 8296391784369029276, guid: c6b96725585fcee4abb94c45d3867408,
+    type: 3}
   spawnRate: 2
   minHeight: -1
   maxHeight: 2
+  slidePipeHeightOffset: -2
   verticalGap: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
