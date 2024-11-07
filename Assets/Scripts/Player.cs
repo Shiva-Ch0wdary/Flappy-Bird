@@ -60,9 +60,14 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Obstacle")) {
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            // Call GameOver on collision with obstacle (airplane)
             GameManager.Instance.GameOver();
-        } else if (other.gameObject.CompareTag("Scoring")) {
+        }
+        else if (other.gameObject.CompareTag("Scoring"))
+        {
+            // Increment score when passing through scoring zones
             GameManager.Instance.IncreaseScore();
         }
     }
