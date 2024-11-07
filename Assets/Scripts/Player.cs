@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     private int spriteIndex;
     private bool isInvisible = false;
     private float originalStrength; // Store the original strength for resetting
+    public float maxHeight = 4f;
 
     private void Awake()
     {
@@ -36,6 +37,15 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        // check maximum height
+        if (transform.position.y > maxHeight)
+        {
+            Vector3 position = transform.position;
+            position.y = maxHeight;
+            transform.position = position;
+        }
+
+
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             direction = Vector3.up * strength;
