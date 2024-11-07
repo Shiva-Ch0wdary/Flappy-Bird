@@ -129,12 +129,12 @@ TextureImporter:
       name: B_Bird_02_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 24
-        width: 440
-        height: 320
+        x: 0
+        y: 0
+        width: 515
+        height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7e220f6f20230654c8593c1c1cb8c48c
     internalID: 0
     vertices: []
     indices: 
